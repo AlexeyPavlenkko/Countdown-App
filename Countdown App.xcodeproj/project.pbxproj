@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E846125028BA83450005AA3E /* NewCDTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E846124F28BA83450005AA3E /* NewCDTaskViewController.swift */; };
+		E846125328BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E846125128BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.swift */; };
+		E846125428BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E846125228BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.xib */; };
 		E8B27B2628BA6D47008466C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B2528BA6D47008466C5 /* AppDelegate.swift */; };
 		E8B27B2828BA6D47008466C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B2728BA6D47008466C5 /* SceneDelegate.swift */; };
-		E8B27B2A28BA6D47008466C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B2928BA6D47008466C5 /* ViewController.swift */; };
+		E8B27B2A28BA6D47008466C5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B2928BA6D47008466C5 /* MainViewController.swift */; };
 		E8B27B2D28BA6D47008466C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B27B2B28BA6D47008466C5 /* Main.storyboard */; };
 		E8B27B3028BA6D47008466C5 /* Countdown_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B2E28BA6D47008466C5 /* Countdown_App.xcdatamodeld */; };
 		E8B27B3228BA6D4A008466C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B27B3128BA6D4A008466C5 /* Assets.xcassets */; };
 		E8B27B3528BA6D4A008466C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B27B3328BA6D4A008466C5 /* LaunchScreen.storyboard */; };
+		E8B27B4728BA7170008466C5 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B4628BA7170008466C5 /* UIColor+.swift */; };
+		E8B27B4928BA72D5008466C5 /* Foundation+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B4828BA72D5008466C5 /* Foundation+.swift */; };
+		E8B27B4B28BA7371008466C5 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B4A28BA7371008466C5 /* Box.swift */; };
+		E8B27B4D28BA7508008466C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B4C28BA7508008466C5 /* Constants.swift */; };
+		E8B27B4F28BA77B8008466C5 /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B4E28BA77B8008466C5 /* UIApplication+.swift */; };
+		E8B27B5128BA78A5008466C5 /* CDTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B5028BA78A5008466C5 /* CDTask.swift */; };
+		E8B27B5528BA79A1008466C5 /* CDTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B27B5428BA79A1008466C5 /* CDTaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E846124F28BA83450005AA3E /* NewCDTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCDTaskViewController.swift; sourceTree = "<group>"; };
+		E846125128BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDTaskTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		E846125228BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CDTaskTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		E8B27B2228BA6D47008466C5 /* Countdown App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Countdown App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B27B2528BA6D47008466C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B27B2728BA6D47008466C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8B27B2928BA6D47008466C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8B27B2928BA6D47008466C5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E8B27B2C28BA6D47008466C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B27B2F28BA6D47008466C5 /* Countdown_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Countdown_App.xcdatamodel; sourceTree = "<group>"; };
 		E8B27B3128BA6D4A008466C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B27B3428BA6D4A008466C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B27B3628BA6D4A008466C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B27B4628BA7170008466C5 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		E8B27B4828BA72D5008466C5 /* Foundation+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+.swift"; sourceTree = "<group>"; };
+		E8B27B4A28BA7371008466C5 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		E8B27B4C28BA7508008466C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E8B27B4E28BA77B8008466C5 /* UIApplication+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
+		E8B27B5028BA78A5008466C5 /* CDTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDTask.swift; sourceTree = "<group>"; };
+		E8B27B5428BA79A1008466C5 /* CDTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDTaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +78,114 @@
 		E8B27B2428BA6D47008466C5 /* Countdown App */ = {
 			isa = PBXGroup;
 			children = (
-				E8B27B2528BA6D47008466C5 /* AppDelegate.swift */,
-				E8B27B2728BA6D47008466C5 /* SceneDelegate.swift */,
-				E8B27B2928BA6D47008466C5 /* ViewController.swift */,
-				E8B27B2B28BA6D47008466C5 /* Main.storyboard */,
-				E8B27B3128BA6D4A008466C5 /* Assets.xcassets */,
-				E8B27B3328BA6D4A008466C5 /* LaunchScreen.storyboard */,
-				E8B27B3628BA6D4A008466C5 /* Info.plist */,
 				E8B27B2E28BA6D47008466C5 /* Countdown_App.xcdatamodeld */,
+				E8B27B3628BA6D4A008466C5 /* Info.plist */,
+				E8B27B4428BA7035008466C5 /* Extensions */,
+				E8B27B3D28BA6F95008466C5 /* Code */,
+				E8B27B4528BA703F008466C5 /* Utils */,
+				E8B27B3C28BA6F2C008466C5 /* Resources  */,
 			);
 			path = "Countdown App";
+			sourceTree = "<group>";
+		};
+		E8B27B3C28BA6F2C008466C5 /* Resources  */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B3128BA6D4A008466C5 /* Assets.xcassets */,
+				E8B27B3328BA6D4A008466C5 /* LaunchScreen.storyboard */,
+			);
+			path = "Resources ";
+			sourceTree = "<group>";
+		};
+		E8B27B3D28BA6F95008466C5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B3E28BA6FA0008466C5 /* Controllers */,
+				E8B27B4128BA6FCA008466C5 /* Models */,
+				E8B27B3F28BA6FB0008466C5 /* Modules */,
+				E8B27B4228BA6FD7008466C5 /* Services */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		E8B27B3E28BA6FA0008466C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B2528BA6D47008466C5 /* AppDelegate.swift */,
+				E8B27B2728BA6D47008466C5 /* SceneDelegate.swift */,
+				E8B27B4A28BA7371008466C5 /* Box.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E8B27B3F28BA6FB0008466C5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B4028BA6FB8008466C5 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E8B27B4028BA6FB8008466C5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B5228BA797B008466C5 /* Cells */,
+				E8B27B5328BA7986008466C5 /* ViewModels */,
+				E8B27B2928BA6D47008466C5 /* MainViewController.swift */,
+				E846124F28BA83450005AA3E /* NewCDTaskViewController.swift */,
+				E8B27B2B28BA6D47008466C5 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E8B27B4128BA6FCA008466C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B5028BA78A5008466C5 /* CDTask.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8B27B4228BA6FD7008466C5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E8B27B4428BA7035008466C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B4628BA7170008466C5 /* UIColor+.swift */,
+				E8B27B4E28BA77B8008466C5 /* UIApplication+.swift */,
+				E8B27B4828BA72D5008466C5 /* Foundation+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E8B27B4528BA703F008466C5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B4C28BA7508008466C5 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E8B27B5228BA797B008466C5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E846125128BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.swift */,
+				E846125228BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E8B27B5328BA7986008466C5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E8B27B5428BA79A1008466C5 /* CDTaskViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E846125428BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.xib in Resources */,
 				E8B27B3528BA6D4A008466C5 /* LaunchScreen.storyboard in Resources */,
 				E8B27B3228BA6D4A008466C5 /* Assets.xcassets in Resources */,
 				E8B27B2D28BA6D47008466C5 /* Main.storyboard in Resources */,
@@ -141,10 +260,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B27B2A28BA6D47008466C5 /* ViewController.swift in Sources */,
+				E8B27B2A28BA6D47008466C5 /* MainViewController.swift in Sources */,
+				E8B27B4B28BA7371008466C5 /* Box.swift in Sources */,
 				E8B27B2628BA6D47008466C5 /* AppDelegate.swift in Sources */,
+				E8B27B5128BA78A5008466C5 /* CDTask.swift in Sources */,
 				E8B27B2828BA6D47008466C5 /* SceneDelegate.swift in Sources */,
 				E8B27B3028BA6D47008466C5 /* Countdown_App.xcdatamodeld in Sources */,
+				E8B27B4F28BA77B8008466C5 /* UIApplication+.swift in Sources */,
+				E8B27B4928BA72D5008466C5 /* Foundation+.swift in Sources */,
+				E8B27B4728BA7170008466C5 /* UIColor+.swift in Sources */,
+				E8B27B5528BA79A1008466C5 /* CDTaskViewModel.swift in Sources */,
+				E8B27B4D28BA7508008466C5 /* Constants.swift in Sources */,
+				E846125328BA97DA0005AA3E /* CDTaskTypeCollectionViewCell.swift in Sources */,
+				E846125028BA83450005AA3E /* NewCDTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
