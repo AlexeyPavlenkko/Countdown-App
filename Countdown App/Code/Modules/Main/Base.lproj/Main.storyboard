@@ -94,9 +94,10 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4IZ-H6-wgw">
                                         <rect key="frame" x="0.0" y="0.0" width="114" height="114"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="00" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dyt-1n-ZcF">
-                                                <rect key="frame" x="21" y="24" width="72" height="66.333333333333329"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dyt-1n-ZcF">
+                                                <rect key="frame" x="24.666666666666664" y="24" width="65" height="66.333333333333329"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="appWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="Gdc-Jg-ckE"/>
                                                 </constraints>
@@ -123,9 +124,10 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iu7-5f-aVU">
                                         <rect key="frame" x="114" y="0.0" width="114" height="114"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="00" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ecZ-mN-bLF">
-                                                <rect key="frame" x="21" y="24" width="72" height="66.333333333333329"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ecZ-mN-bLF">
+                                                <rect key="frame" x="24.666666666666657" y="24" width="65" height="66.333333333333329"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="appWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="EFS-Kp-WA8"/>
                                                 </constraints>
@@ -152,9 +154,10 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uhs-wp-bRG">
                                         <rect key="frame" x="228" y="0.0" width="114" height="114"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="00" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iq7-eb-IWz">
-                                                <rect key="frame" x="21" y="24" width="72" height="66.333333333333329"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iq7-eb-IWz">
+                                                <rect key="frame" x="24.666666666666686" y="24" width="65" height="66.333333333333329"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="appWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="XUe-ud-pZb"/>
                                                 </constraints>
@@ -254,6 +257,7 @@
                         <outlet property="hourTextField" destination="dyt-1n-ZcF" id="FEX-Mp-jo0"/>
                         <outlet property="minutesTextField" destination="ecZ-mN-bLF" id="Z99-hU-eGr"/>
                         <outlet property="nameDescriptionContainerView" destination="BbS-qu-QwS" id="Xqh-tz-GKj"/>
+                        <outlet property="newTaskLabelTopConstraint" destination="qj9-3N-zA1" id="QcU-5f-tSV"/>
                         <outlet property="secondsTextField" destination="Iq7-eb-IWz" id="B49-wX-ahS"/>
                         <outlet property="startButton" destination="Im7-4O-RVp" id="fmA-mc-K1S"/>
                     </connections>
