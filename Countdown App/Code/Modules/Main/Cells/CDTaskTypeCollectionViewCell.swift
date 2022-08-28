@@ -44,9 +44,9 @@ class CDTaskTypeCollectionViewCell: UICollectionViewCell {
             self.imageContainerView.backgroundColor = UIColor.whiteColor
             self.imageView.tintColor = UIColor.darkBlueColor
             self.cdtypeName.textColor = UIColor.whiteColor
-            self.imageView.image = UIImage(systemName: cdtaskType.symbolName, withConfiguration: UIImage.SymbolConfiguration(pointSize: 26, weight: .medium))
+            self.imageView.image = UIImage(systemName: cdtaskType.symbolName, withConfiguration: UIImage.SymbolConfiguration(pointSize: 24, weight: .medium))
         } else {
-            self.imageView.image = UIImage(systemName: cdtaskType.symbolName, withConfiguration: UIImage.SymbolConfiguration(pointSize: 24, weight: .regular))
+            self.imageView.image = UIImage(systemName: cdtaskType.symbolName, withConfiguration: UIImage.SymbolConfiguration(pointSize: 22, weight: .regular))
             resetCell()
         }
     }
