@@ -10,8 +10,6 @@ import UIKit
 class NewCDTaskViewController: UIViewController {
     
     //MARK: - Outlets
-    @IBOutlet weak var closeButton: UIButton!
-    
     @IBOutlet weak var cdtaskNameTextField: UITextField!
     @IBOutlet weak var cdtaskDescriptionTextField: UITextField!
     
@@ -21,6 +19,7 @@ class NewCDTaskViewController: UIViewController {
     
     @IBOutlet weak var nameDescriptionContainerView: UIView!
     
+    @IBOutlet weak var closeButton: UIButton!
     @IBOutlet weak var startButton: UIButton!
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -53,10 +52,21 @@ class NewCDTaskViewController: UIViewController {
     //MARK: - Actions & objc methods
     
     @IBAction func startButtonPressed(_ sender: UIButton) {
+        guard let timerVC = self.storyboard?.instantiateViewController(withIdentifier: TimerViewController.description()) as? TimerViewController else { return }
         self.cdtaskViewModel.computeSeconds()
+        timerVC.cdtaskViewModel = self.cdtaskViewModel
+        timerVC.isModalInPresentation = true
+        self.present(timerVC, animated: true)
     }
     
     @IBAction func closeButtonTapped(_ sender: Any) {
+        UIView.animate(withDuration: 0.1, delay: 0) {
+            self.closeButton.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
+        } completion: { _ in
+            self.closeButton.transform = CGAffineTransform.identity
+        }
+        
+        self.resetTask()
     }
     
     @objc func textFieldInputChanged(_ textField: UITextField) {
@@ -172,6 +182,17 @@ class NewCDTaskViewController: UIViewController {
     private func setupCornerRadiuses() {
         self.nameDescriptionContainerView.layer.cornerRadius = 10
         self.startButton.layer.cornerRadius = 10
+    }
+    
+    public func resetTask() {
+        self.cdtaskViewModel = CDTaskViewModel()
+        [cdtaskNameTextField, cdtaskDescriptionTextField, hourTextField, minutesTextField, secondsTextField].forEach { textField in
+            guard let textField = textField else {return}
+            textField.text = nil
+        }
+        self.setupTextFields()
+        self.collectionView.reloadData()
+        self.disableButton()
     }
     
 }
