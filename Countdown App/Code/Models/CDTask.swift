@@ -15,7 +15,7 @@ struct CDTaskType {
 struct CDTask {
     var name: String
     var description: String
-    var second: Int
+    var seconds: Int
     var taskType: CDTaskType
     
     var timeStamp: Double
