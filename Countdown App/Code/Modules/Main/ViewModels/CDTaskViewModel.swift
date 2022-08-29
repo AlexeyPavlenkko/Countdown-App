@@ -13,10 +13,12 @@ class CDTaskViewModel {
     
     private var cdtask: CDTask!
     private let taskTypes: [CDTaskType] = [
-        CDTaskType(symbolName: "star", typeName: "Priority"),
-        CDTaskType(symbolName: "iphone", typeName: "Develop"),
-        CDTaskType(symbolName: "gamecontroller", typeName: "Gaming"),
-        CDTaskType(symbolName: "wand.and.rays.inverse", typeName: "Editing")
+        CDTaskType(symbolName: "sportscourt", typeName: "Sport"),
+        CDTaskType(symbolName: "keyboard", typeName: "Code"),
+        CDTaskType(symbolName: "paintbrush", typeName: "Painting"),
+        CDTaskType(symbolName: "wand.and.rays.inverse", typeName: "Editing"),
+        CDTaskType(symbolName: "book", typeName: "Reading"),
+        CDTaskType(symbolName: "airplane.circle", typeName: "Chill")
     ]
     
     private var selectedIndex = -1 {
