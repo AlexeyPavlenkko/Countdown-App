@@ -33,11 +33,11 @@ class CDTaskTypeCollectionViewCell: UICollectionViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        resetCell()
+        self.resetCell()
         self.imageView.image = nil
     }
     
-    func setupCell(cdtaskType: CDTaskType, isSelected: Bool) {
+    public func setupCell(cdtaskType: CDTaskType, isSelected: Bool) {
         self.cdtypeName.text = cdtaskType.typeName
         
         if isSelected {
@@ -51,7 +51,7 @@ class CDTaskTypeCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    func resetCell() {
+    private func resetCell() {
         self.imageContainerView.backgroundColor = UIColor.clear
         self.imageView.tintColor = UIColor.whiteColor
         self.cdtypeName.textColor = UIColor.whiteColor
