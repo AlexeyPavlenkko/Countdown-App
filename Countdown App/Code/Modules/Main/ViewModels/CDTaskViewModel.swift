@@ -34,7 +34,7 @@ class CDTaskViewModel {
     
     init() {
         //sets dummy cdtask model by default
-        cdtask = CDTask(name: "", description: "", second: 0, taskType: .init(symbolName: "", typeName: ""), timeStamp: 0)
+        cdtask = CDTask(name: "", description: "", seconds: 0, taskType: .init(symbolName: "", typeName: ""), timeStamp: 0)
     }
     
     //MARK: - Methods
@@ -108,7 +108,7 @@ class CDTaskViewModel {
     }
     
     func computeSeconds() {
-        self.cdtask.second = (hours.value * 3600) + (minutes.value * 60) + seconds.value
+        self.cdtask.seconds = (hours.value * 3600) + (minutes.value * 60) + seconds.value
         self.cdtask.timeStamp = Date().timeIntervalSince1970
     }
     
